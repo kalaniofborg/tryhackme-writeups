@@ -1,0 +1,170 @@
+!-- CI/CD --!
+
+oot@ip-10-66-102-100:~# ssh mother@10.200.60.150
+The authenticity of host '10.200.60.150 (10.200.60.150)' can't be established.
+ECDSA key fingerprint is SHA256:PpMxTG3k3zXTWHC/fErMaEhad4+2HlqvRNgjS/R4qCY.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.200.60.150' (ECDSA) to the list of known hosts.
+mother@10.200.60.150: Permission denied (publickey).
+root@ip-10-66-102-100:~# ssh mother@10.200.60.250
+The authenticity of host '10.200.60.250 (10.200.60.250)' can't be established.
+ECDSA key fingerprint is SHA256:h8MhOkCUzENtHsFKhaAMDhVQk2RS1MzXilxAnbvE4UQ.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.200.60.250' (ECDSA) to the list of known hosts.
+mother@10.200.60.250's password: 
+
+A... warm.... welcome.... from...
+
+
+ __  __ _   _     _____ _   _       _   _ ____     __    ___   ___   ___  _ 
+|  \/  | | | |   |_   _| | | |     | | | |  _ \   / /_  / _ \ / _ \ / _ \| |
+| |\/| | | | |_____| | | |_| |_____| | | | |_) | | '_ \| | | | | | | | | | |
+| |  | | |_| |_____| | |  _  |_____| |_| |  _ <  | (_) | |_| | |_| | |_| |_|
+|_|  |_|\___/      |_| |_| |_|      \___/|_| \_\  \___/ \___/ \___/ \___/(_)
+                                                                            
+
+
+Please make a selection:
+[1] Register
+[2] Authenticate
+[3] Exit
+Selection:1
+Please provide your THM username: kalaniofborg
+
+
+=======================================
+Thank you for checking-in with Mother for the CI/CD Network. Be careful, the are hostiles and androids about!
+Please take note of the following details and please make sure to save them, as they will not be displayed again.
+=======================================
+Username: kalaniofborg
+Password: pLDO9uaymRHhREKu
+MailAddr: kalaniofborg@tryhackme.loc
+IP Range: 10.200.60.0/24
+=======================================
+
+These details are now active.
+Once you have performed the actions to take control of the Android's pipeline, please reestablish a connection to mother.
+If your access is deemed worthy, mother will award you with a flag for your progress.
+
+=======================================
+Please note once again that the VPN server and Mother, 10.200.60.250, are not in-scope for this investigation.
+Any attempts made against Mother will result in immediate termination of your contract.
+Best of luck on your journey!
+
+
+
+Thank you for talking to Mother, goodbye!
+Connection to 10.200.60.250 closed.
+root@ip-10-66-102-100:~# 2
+2: command not found
+root@ip-10-66-102-100:~# ssh mother@10.200.60.150
+mother@10.200.60.150: Permission denied (publickey).
+root@ip-10-66-102-100:~# ssh mother@10.200.60.250
+mother@10.200.60.250's password: 
+
+A... warm.... welcome.... from...
+
+
+ __  __ _   _     _____ _   _       _   _ ____     __    ___   ___   ___  _ 
+|  \/  | | | |   |_   _| | | |     | | | |  _ \   / /_  / _ \ / _ \ / _ \| |
+| |\/| | | | |_____| | | |_| |_____| | | | |_) | | '_ \| | | | | | | | | | |
+| |  | | |_| |_____| | |  _  |_____| |_| |  _ <  | (_) | |_| | |_| | |_| |_|
+|_|  |_|\___/      |_| |_| |_|      \___/|_| \_\  \___/ \___/ \___/ \___/(_)
+                                                                            
+
+
+Please make a selection:
+[1] Register
+[2] Authenticate
+[3] Exit
+Selection:2
+Please provide your username: kalaniofborg
+Please provide your password: pLDO9uaymRHhREKu
+
+Welcome kalaniofborg
+
+What would you like to do?
+Please select an option
+[1] Submit proof of compromise
+[2] Verify past compromises
+[3] Exit
+Selection:2
+
+Please see your current progress below:
+Flag ID		Flag Description		Completed
+1		Build Process Compromise		False
+2		Build Server Compromise		False
+3		Build Pipeline Compromise		False
+4		DEV Environment Compromise		False
+5		PROD Environment Compromise		False
+
+
+Please select an option:
+[1] Get Flag Value
+[2] Remove Flag Completion
+[3] Exit
+Selection:1
+
+Please provide the ID for the flag you wish to receive
+Selection:1
+
+You have not yet completed that flag, thus you are not allowed to request the value
+
+Please select an option:
+[1] Get Flag Value
+[2] Remove Flag Completion
+[3] Exit
+Selection:exit
+
+Invalid data, please try again
+invalid literal for int() with base 10: 'exit'
+
+Please select an option:
+[1] Get Flag Value
+[2] Remove Flag Completion
+[3] Exit
+Selection:3
+
+What would you like to do?
+Please select an option
+[1] Submit proof of compromise
+[2] Verify past compromises
+[3] Exit
+Selection:1
+Please select which flag you would like to submit proof for:
+[1]	Build Process Compromise
+[2]	Build Server Compromise
+[3]	Build Pipeline Compromise
+[4]	DEV Environment Compromise
+[5]	PROD Environment Compromise
+[100]	Exit
+Selection:2
+Please provide the hostname of the host you have compromised (please use the name provided in your network diagram): Jenkins
+
+In order to verify your access, please complete the following steps.
+1. On the jenkins host, navigate to the /flag/ directory
+2. Create a text file with this name: kalaniofborg.txt
+3. Add the following UUID to the first line of the file: f3a96c33-27ff-4f1e-84e3-1bfb5d6c3211
+4. Click proceed for the verification to occur
+
+Once you have performed the steps, please enter Y to verify your access.
+If you wish to fully exit verification and try again please, please enter X.
+If you wish to remove this verification attempt, please enter Z
+Ready to verify? [Y/X/Z]: Y
+Warning: Permanently added '10.200.60.160' (ECDSA) to the list of known hosts.
+kalaniofborg.txt                              100%   37    55.2KB/s   00:00    
+
+Congratulations! You have received the flag for: Build Server Compromise
+
+Your flag value is: THM{1769f776-e03c-40b6-b2eb-b298297c15cc}
+
+Invalid data, please try again
+'verifier' object has no attribute 'send_information_pack'
+Please select which flag you would like to submit proof for:
+[1]	Build Process Compromise
+[2]	Build Server Compromise
+[3]	Build Pipeline Compromise
+[4]	DEV Environment Compromise
+[5]	PROD Environment Compromise
+[100]	Exit
+Selection:

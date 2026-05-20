@@ -31,7 +31,7 @@ My focus areas include:
 ## Try Hack Me Certifications
 - Pre Security :heavy_check_mark:
 - Cybersecurity 101 :heavy_check_mark:
-# Goal to complete by the end of the year:
+## Goal to complete by the end of the year:
 - Jr. Penetration Tester :signal_strength:
 
 ## Contact
